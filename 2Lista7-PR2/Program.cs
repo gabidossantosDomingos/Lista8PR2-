@@ -356,76 +356,76 @@ namespace _2Lista7_PR2
 
         }
 
-static void Main(string[] args)
-    {
-
-        int exercicio;
-        int i = 1;
-
-        do
+        static void Main(string[] args)
         {
 
+            int exercicio;
+            int i = 1;
 
-            Console.WriteLine("Escolha um mês:");
-            Console.WriteLine("----MENU----");
-            Console.WriteLine("exercicio 1 - digite1");
-            Console.WriteLine("exercicio 2 - digite2");
-            Console.WriteLine("exercicio 3 - digite3");
-            Console.WriteLine("exercicio 4 - digite4");
-            Console.WriteLine("exercicio 5 - digite5");
-            Console.WriteLine("exercicio 6 - digite6");
-            Console.WriteLine("exercicio 7 - digite7");
-
-            exercicio = int.Parse(Console.ReadLine());
-
-
-            switch (exercicio)
+            do
             {
 
-                case 1:
-                    Exer1();
-                    break;
+
+                Console.WriteLine("Escolha um mês:");
+                Console.WriteLine("----MENU----");
+                Console.WriteLine("exercicio 1 - digite1");
+                Console.WriteLine("exercicio 2 - digite2");
+                Console.WriteLine("exercicio 3 - digite3");
+                Console.WriteLine("exercicio 4 - digite4");
+                Console.WriteLine("exercicio 5 - digite5");
+                Console.WriteLine("exercicio 6 - digite6");
+                Console.WriteLine("exercicio 7 - digite7");
+
+                exercicio = int.Parse(Console.ReadLine());
 
 
-                case 2:
-                    Exer2();
-                    break;
+                switch (exercicio)
+                {
+
+                    case 1:
+                        Exer1();
+                        break;
 
 
-                case 3:
-                    Exer3();
-                    break;
+                    case 2:
+                        Exer2();
+                        break;
 
 
-                case 4:
-                    Exer4();
-                    break;
+                    case 3:
+                        Exer3();
+                        break;
+
+
+                    case 4:
+                        Exer4();
+                        break;
 
 
 
-                case 5:
-                    Exer5();
-                    break;
+                    case 5:
+                        Exer5();
+                        break;
 
-                case 6:
-                    Exer6();
-                    break;
-
-
-                case 7:
-                  Exer7();
-                    break;
+                    case 6:
+                        Exer6();
+                        break;
 
 
-                    
-                    
+                    case 7:
+                        Exer7();
+                        break;
 
 
-            }
 
-            Console.WriteLine("Digite  o valor 0 para parar ou qualquer outro para continuar");
-            i = int.Parse(Console.ReadLine());
-        } while (i != 0);
+
+
+
+                }
+
+                Console.WriteLine("Digite  o valor 0 para parar ou qualquer outro para continuar");
+                i = int.Parse(Console.ReadLine());
+            } while (i != 0);
+        }
     }
-}
 }
